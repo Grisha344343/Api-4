@@ -27,6 +27,7 @@ def fetch_file_extension(link):
 if __name__ == "__main__":
     load_dotenv()
     tg_token = os.getenv("TG_TOKEN")
+    chat_id = os.getenv("CHAT_ID")
     bot = telegram.Bot(token=tg_token)
     print(bot.get_me())
     updates = bot.get_updates()
@@ -35,6 +36,6 @@ if __name__ == "__main__":
         filename = random.choice(filesindir)
         filepath = os.path.join("images", filename)
         with open(filepath, "rb") as photo:
-            bot.send_photo(chat_id="@nasaepicphotos", photo=photo.read())
+            bot.send_photo(chat_id=chat_id, photo=photo.read())
         bot_delay = 86400
         sleep(bot_delay)
