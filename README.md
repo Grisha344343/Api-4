@@ -13,9 +13,9 @@
 
 ```
 NASA_APIKEY=Ваш токен NASA
-LAUNCH_ID=id запуска SpaceX
+SPACEX_LAUNCH_ID=id запуска SpaceX
 TG_TOKEN=токен Вашего бота в телеграмм
-CHAT_ID=@название Вашего канала
+TG_CHAT_ID=@название Вашего канала
 ```
 
 [Python3](https://www.python.org/) должен быть уже установлен. Затем используйте ```pip``` (или ```pip3```, есть конфликт с Python2) для установки зависимостей:
