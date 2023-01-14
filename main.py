@@ -29,7 +29,6 @@ if __name__ == "__main__":
     tg_token = os.getenv("TG_TOKEN")
     chat_id = os.getenv("TG_CHAT_ID")
     bot = telegram.Bot(token=tg_token)
-    updates = bot.get_updates()
     filesindir = os.listdir("images")
     while True:
         filename = random.choice(filesindir)
