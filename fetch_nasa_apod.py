@@ -20,6 +20,5 @@ if __name__ == '__main__':
     load_dotenv()
     nasa_apikey = os.getenv("NASA_APIKEY")
     nasa_count = 30
-    natural_nasa = 1
     fetch_nasa_apod(nasa_apikey, nasa_count)
 
