@@ -25,10 +25,22 @@ pip install -r requirements.txt
 ```
 
 ### Как использовать
-- Для загрузки изображений NASA epic, используйте команду ```python fetch_nasa_epic.py```
-- Для загрузки изображений NASA apod, используйте команду ```python fetch_nasa_apod.py```
-- Для загрузки изображений SpaceX, используйте команду ```python fetch_spacex_images.py```
-- ДЛЯ постинга изображений в телеграмм запустите скрипт ```python main.py```
+- Для загрузки изображений NASA epic, используйте команду:
+ ```
+ python fetch_nasa_epic.py
+ ```
+- Для загрузки изображений NASA apod, используйте команду: 
+```
+python fetch_nasa_apod.py
+```
+- Для загрузки изображений SpaceX, используйте команду: 
+```
+python fetch_spacex_images.py
+```
+- ДЛЯ постинга изображений в телеграмм запустите скрипт:
+```
+python main.py
+```
 
 ### Цель проекта
 Код написан учеником в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/modules/)
