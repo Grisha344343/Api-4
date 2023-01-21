@@ -37,7 +37,7 @@ python fetch_nasa_apod.py
 ```
 python fetch_spacex_images.py
 ```
-- ДЛЯ постинга изображений в телеграмм запустите скрипт:
+- Для постинга изображений в телеграмм запустите скрипт:
 ```
 python main.py
 ```
